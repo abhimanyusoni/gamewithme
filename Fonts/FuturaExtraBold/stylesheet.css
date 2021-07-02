@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Futura XBlk BT';
+    src: url('FuturaBT-ExtraBlack.eot');
+    src: url('FuturaBT-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlack.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlack.woff') format('woff'),
+        url('FuturaBT-ExtraBlack.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlack.svg#FuturaBT-ExtraBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
