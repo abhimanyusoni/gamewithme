@@ -99,7 +99,7 @@ body {
   margin: auto;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 100px;
+  bottom: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
