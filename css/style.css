@@ -765,7 +765,7 @@ body {
     top: calc(100% + 55px);
   }
   .gamewithme_main .step_outer.four .step_number::after {
-    height: 365px;
+    height: 356px;
   }
   .gamewithme_main .step_outer.fiver .step_inner .step_number::before {
     width: 377px;
