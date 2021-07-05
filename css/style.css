@@ -52,7 +52,6 @@ body {
 
 .gamewithme_main .banner_section {
   height: 100vh;
-  min-height: 800px;
   padding-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,7 +59,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../images/10648.png) no-repeat center;
+  background: url(../images/10648.png) no-repeat center bottom;
   background-size: cover;
   position: relative;
   margin-bottom: 60px;
@@ -527,6 +526,17 @@ body {
           transform: rotate(45deg);
 }
 
+.gamewithme_main .step_outer.six .boxed_content .box_one::before, .gamewithme_main .step_outer.seven .boxed_content .box_one::before {
+  content: attr(data-numbers);
+  position: absolute;
+  font: 700 150px 'Graphik';
+  line-height: 150px;
+  color: #4A4A51;
+  opacity: 6%;
+  top: 25px;
+  left: 20px;
+}
+
 .gamewithme_main .step_outer.six .boxed_content .box_one:nth-child(2)::after, .gamewithme_main .step_outer.seven .boxed_content .box_one:nth-child(2)::after {
   border-color: transparent #D793DF transparent transparent;
 }
@@ -572,12 +582,769 @@ body {
   margin-top: 100px;
 }
 
+.gamewithme_main .step_outer.seven .boxed_content .box_one {
+  height: 240px;
+}
+
 .gamewithme_main .step_outer.seven .boxed_content .box_one::after {
   display: none;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.server::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/hosting.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.database::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/database.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.php::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/files.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.framework::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/web-programming.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.payment::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/secure-payment.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
+}
+
+.gamewithme_main .step_outer.seven .boxed_content .box_one.notification::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url(../images/notification1.svg) no-repeat center;
+  background-size: 140px;
+  right: 45px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 80%;
+  left: auto;
 }
 
 .gamewithme_main .step_outer.seven .boxed_content .box_one p {
   font-size: 28px;
   line-height: 44px;
+}
+
+@media (max-width: 1710px) {
+  .gamewithme_main .container {
+    max-width: 1340px;
+  }
+  .gamewithme_main .banner_section .container {
+    max-width: 100%;
+    padding: 0 8%;
+  }
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 66px;
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .banner_section .left_side p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .gamewithme_main .banner_section::after {
+    width: 740px;
+    height: 775px;
+    top: -70px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number h3 {
+    font-size: 115px;
+    line-height: 115px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number {
+    width: 180px;
+    height: 180px;
+    background-size: 180px 180px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number .title {
+    font-size: 48px;
+  }
+  .gamewithme_main .step_outer .step_inner .content p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .gamewithme_main .step_outer .step_inner .content {
+    margin-top: 165px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .step_number::after {
+    height: 288px;
+  }
+  .gamewithme_main .step_outer.two .content {
+    width: calc(100% - 575px);
+    padding-right: 95px;
+  }
+  .gamewithme_main .step_outer.two .character_img {
+    width: 320px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .step_number::after {
+    height: 641px;
+  }
+  .gamewithme_main .step_outer.three .step_number::before {
+    width: 346px;
+  }
+  .gamewithme_main .step_outer.three .step_number::after {
+    height: 54px;
+  }
+  .gamewithme_main .step_outer.three .step_number {
+    margin-bottom: 105px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
+    width: 439px;
+    bottom: calc(100% + 50px);
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::before {
+    height: 50px;
+  }
+  .gamewithme_main .step_outer.four {
+    padding-top: 120px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::before {
+    height: 58px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
+    width: 1067px;
+    top: calc(100% + 55px);
+  }
+  .gamewithme_main .step_outer.four .step_number::after {
+    height: 365px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number::before {
+    width: 377px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {
+    max-width: 260px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one p, .gamewithme_main .step_outer.seven .boxed_content .box_one p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one, .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    padding: 30px;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content .box_one::before {
+    width: 100px !important;
+    height: 100px !important;
+    background-size: 100px !important;
+  }
+  .gamewithme_main .banner_section {
+    padding-bottom: 110px;
+  }
+  .gamewithme_main .banner_section .informative {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 1200px) and (max-height: 850px) {
+  .gamewithme_main .banner_section::after {
+    width: 45%;
+    height: 734px;
+    top: -94px;
+  }
+}
+
+@media (min-width: 1024px) and (max-height: 780px) {
+  .gamewithme_main .banner_section::after {
+    width: 50%;
+    height: 667px;
+    top: -100px;
+  }
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .banner_section .left_side p {
+    font-size: 20px;
+    line-height: 34px;
+    padding-right: 50px;
+  }
+  .gamewithme_main .banner_section .informative {
+    bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-height: 700px) {
+  .gamewithme_main .banner_section::after {
+    top: -125px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+  }
+  .gamewithme_main .banner_section .left_side p {
+    font-size: 20px;
+    line-height: 34px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1365px) {
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 44px;
+    margin-bottom: 12px;
+  }
+  .gamewithme_main .banner_section .left_side p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .gamewithme_main .banner_section::after {
+    left: -30px;
+  }
+  .gamewithme_main .banner_section .informative .info_one h4 {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .gamewithme_main .banner_section .informative {
+    max-width: 991px;
+  }
+  .gamewithme_main .banner_section .informative .info_one .img {
+    width: 42px;
+    height: 42px;
+  }
+  .gamewithme_main .banner_section .informative .info_one .img img {
+    width: 20px;
+  }
+  .gamewithme_main .container {
+    max-width: 1140px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number h3 {
+    font-size: 95px;
+    line-height: 95px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number .title {
+    font-size: 36px;
+    -webkit-text-stroke: 1px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number {
+    width: 140px;
+    height: 140px;
+    background-size: 140px 140px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .content {
+    width: calc(100% - 190px);
+  }
+  .gamewithme_main .step_outer .step_inner .content p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .gamewithme_main .banner_section {
+    margin-bottom: 40px;
+  }
+  .gamewithme_main .step_outer.one {
+    padding-bottom: 80px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .step_number::after {
+    height: 256px;
+  }
+  .gamewithme_main .step_outer.one .step_number::before {
+    height: 16px;
+    width: 16px;
+  }
+  .gamewithme_main .step_outer.two {
+    padding-top: 70px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .content {
+    margin-top: 140px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .content {
+    margin-top: 140px;
+    width: calc(100% - 468px);
+    padding-right: 90px;
+  }
+  .gamewithme_main .step_outer.two .character_img {
+    width: 275px;
+  }
+  .gamewithme_main .step_outer .step_inner .content p:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .gamewithme_main .step_outer.two .character_img img {
+    margin-top: 15px;
+  }
+  .gamewithme_main .step_outer.two .step_number::before {
+    height: 55px;
+  }
+  .gamewithme_main .step_outer.three .step_number::before {
+    width: 287px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .step_number::after {
+    height: 541px;
+  }
+  .gamewithme_main .step_outer.three .step_number {
+    margin-bottom: 80px;
+  }
+  .gamewithme_main .step_outer.three .step_number::after {
+    height: 30px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
+    width: 339px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
+    width: 912px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {
+    max-width: 190px;
+  }
+  .gamewithme_main .step_outer.fiver {
+    padding-top: 100px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number::before {
+    width: 317px;
+  }
+  .gamewithme_main .step_outer.four .step_number::after {
+    height: 328px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img {
+    left: calc(100% + 131px);
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .head_img {
+    margin-top: 110px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number::after {
+    height: 110px;
+  }
+  .gamewithme_main .step_outer.six, .gamewithme_main .step_outer.seven {
+    padding-top: 70px;
+  }
+  .gamewithme_main .step_outer.six .step_number::before {
+    height: 70px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one, .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    padding: 20px;
+    height: 220px;
+    width: calc(33.3% - 12px);
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one p, .gamewithme_main .step_outer.seven .boxed_content .box_one p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content .box_one::before {
+    width: 80px !important;
+    height: 80px !important;
+    background-size: 80px !important;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    height: 180px;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .gamewithme_main .banner_section::after {
+    z-index: -1;
+  }
+  .gamewithme_main .container, .gamewithme_main .banner_section .informative {
+    max-width: 950px;
+  }
+  .gamewithme_main .banner_section .informative .info_one h4 {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number h3 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .step_number::after {
+    height: 276px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number .title {
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .content {
+    margin-top: 130px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .content {
+    margin-top: 140px;
+    width: calc(100% - 390px);
+    padding-right: 40px;
+  }
+  .gamewithme_main .step_outer.two .character_img {
+    width: 221px;
+  }
+  .gamewithme_main .step_outer.two .character_img img {
+    margin-top: 40px;
+  }
+  .gamewithme_main .step_outer .step_inner .content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .step_number::after {
+    height: 473px;
+  }
+  .gamewithme_main .step_outer.three .step_number {
+    -webkit-transform: translateX(-33px);
+            transform: translateX(-33px);
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
+    width: 746px;
+  }
+  .gamewithme_main .step_outer.four .step_number::after {
+    height: 340px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number::before {
+    width: 221px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gamewithme_main .banner_section .container {
+    padding: 0 14px;
+    max-width: 950px;
+  }
+  .gamewithme_main .banner_section::after {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .gamewithme_main .banner_section .informative .info_one {
+    width: 50%;
+    padding: 0 20px;
+    margin: 10px 0;
+  }
+  .gamewithme_main .banner_section .informative {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 34px;
+  }
+  .gamewithme_main .banner_section .left_side p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .gamewithme_main .container, .gamewithme_main .banner_section .informative, .gamewithme_main .banner_section .container {
+    max-width: 740px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number h3 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number .title {
+    font-size: 26px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number {
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .content, .gamewithme_main .step_outer.two .step_inner .content {
+    margin-top: 105px;
+  }
+  .gamewithme_main .step_outer.two .character_img {
+    width: 180px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .content {
+    width: calc(100% - 310px);
+  }
+  .gamewithme_main .step_outer.two .character_img img {
+    margin-top: 120px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .step_number::after {
+    height: 544px;
+  }
+  .gamewithme_main .step_outer.three .step_number::before {
+    width: 224px;
+  }
+  .gamewithme_main .step_outer.three {
+    margin-top: 40px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
+    width: 235px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
+    width: 490px;
+  }
+  .gamewithme_main .step_outer .step_inner .content {
+    margin-top: 115px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {
+    max-width: 150px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img {
+    left: calc(100% + 100px);
+  }
+  .gamewithme_main .step_outer.fiver {
+    padding-top: 75px;
+  }
+  .gamewithme_main .step_outer.four .step_number::after {
+    height: 336px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number::before {
+    width: 156px;
+  }
+  .gamewithme_main .step_outer.six .step_number, .gamewithme_main .step_outer.seven .step_number {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one p, .gamewithme_main .step_outer.seven .boxed_content .box_one p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one::after {
+    top: -11px;
+    left: -2px;
+    border-width: 20px 20px 20px 0;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one::before {
+    top: 8px;
+  }
+  .gamewithme_main .step_outer.six, .gamewithme_main .step_outer.seven {
+    padding-top: 40px;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content {
+    margin-top: 60px;
+  }
+  .gamewithme_main .step_outer.one .step_inner .step_number::after {
+    height: 293px;
+  }
+  .gamewithme_main .step_outer.six .step_number::before {
+    height: 40px;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content .box_one::before {
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 50px !important;
+    right: 20px !important;
+  }
+  .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    height: 150px;
+  }
+  .gamewithme_main .banner_section {
+    padding-bottom: 85px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gamewithme_main .banner_section {
+    height: auto;
+    padding: 50px 0;
+    display: block;
+  }
+  .gamewithme_main .banner_section .informative {
+    position: unset;
+    -webkit-transform: none;
+            transform: none;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .gamewithme_main .banner_section .informative .info_one {
+    width: 50%;
+    display: block;
+    text-align: center;
+  }
+  .gamewithme_main .banner_section .informative .info_one .img {
+    margin: 0 auto 15px;
+  }
+  .gamewithme_main .banner_section .informative .info_one h4 {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .gamewithme_main .banner_section .left_side {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 35px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number::before,
+  .gamewithme_main .step_outer .step_inner .step_number::after,
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after,
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::before,
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after,
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::before {
+    display: none !important;
+  }
+  .gamewithme_main .step_outer .step_inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gamewithme_main .step_outer .step_inner .content {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 25px !important;
+  }
+  .gamewithme_main .step_outer.one {
+    padding-bottom: 30px;
+  }
+  .gamewithme_main .step_outer.two {
+    padding-top: 30px;
+  }
+  .gamewithme_main .step_outer.two .character_img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .step_outer.two .character_img img {
+    margin-top: 20px;
+    max-width: 200px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number {
+    width: 90px;
+    height: 90px;
+    background-size: 90px 90px;
+  }
+  .gamewithme_main .step_outer.three .step_number {
+    margin-bottom: 30px;
+    margin-left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .gamewithme_main .step_outer.four {
+    padding-top: 50px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number {
+    margin-left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .gamewithme_main .step_outer.six .boxed_content, .gamewithme_main .step_outer.seven .boxed_content {
+    margin-top: 50px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content, .gamewithme_main .step_outer.seven .boxed_content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one, .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    width: calc(50% - 10px);
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one:nth-child(2n), .gamewithme_main .step_outer.seven .boxed_content .box_one:nth-child(2n) {
+    margin-left: 20px;
+  }
+  .gamewithme_main .step_outer.seven {
+    padding-bottom: 40px;
+  }
+  .gamewithme_main .step_outer.six .step_number, .gamewithme_main .step_outer.seven .step_number {
+    margin-left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .gamewithme_main .banner_section .left_side h1 {
+    font-size: 30px;
+  }
+  .gamewithme_main .step_outer.two .step_inner .content {
+    padding-right: 0;
+  }
+  .gamewithme_main .banner_section {
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .banner_section .informative .info_one {
+    width: 100%;
+  }
+  .gamewithme_main .step_outer.three {
+    margin-top: 20px;
+  }
+  .gamewithme_main .step_outer.three .flex_images img {
+    margin: 8px 0;
+  }
+  .gamewithme_main .step_outer.three .step_number {
+    margin-bottom: 20px;
+  }
+  .gamewithme_main .step_outer.four {
+    padding-top: 30px;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one, .gamewithme_main .step_outer.seven .boxed_content .box_one {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .gamewithme_main .step_outer.six .boxed_content .box_one {
+    height: 210px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number .title {
+    font-size: 22px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {
+    max-width: 95px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img {
+    left: calc(100% + 85px);
+  }
+  .gamewithme_main .step_outer.fiver {
+    padding-top: 40px;
+  }
+  .gamewithme_main .step_outer.fiver .step_inner .head_img {
+    margin-top: 60px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number {
+    width: 75px;
+    height: 75px;
+    background-size: 75px 75px;
+  }
+  .gamewithme_main .step_outer .step_inner .step_number h3 {
+    font-size: 52px;
+    line-height: 52px;
+  }
+  .gamewithme_main .step_outer.seven {
+    padding-bottom: 25px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
