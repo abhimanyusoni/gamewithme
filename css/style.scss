@@ -704,11 +704,11 @@ body{
     .gamewithme_main .step_outer .step_inner .content p:not(:last-child) {margin-bottom: 25px;}
     .gamewithme_main .step_outer.two .character_img img {margin-top: 15px}
     .gamewithme_main .step_outer.two .step_number::before{height: 55px;}
-    .gamewithme_main .step_outer.three .step_number::before {width: 287px;}
+    .gamewithme_main .step_outer.three .step_number::before {width: 346px;}
     .gamewithme_main .step_outer.two .step_inner .step_number::after {height: 541px;}
     .gamewithme_main .step_outer.three .step_number {margin-bottom: 80px;}
     .gamewithme_main .step_outer.three .step_number::after {height: 30px;}
-    .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {width: 339px;}
+    .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {width: 398px;}
     .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {width: 912px;}
     .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {max-width: 190px;}
     .gamewithme_main .step_outer.fiver {padding-top: 100px;}
@@ -724,6 +724,7 @@ body{
     .gamewithme_main .step_outer.seven .boxed_content .box_one::before {width: 80px !important;height: 80px !important;background-size: 80px !important;}
     .gamewithme_main .step_outer.seven .boxed_content .box_one{height: 180px;}
     .gamewithme_main .step_outer.seven .boxed_content {margin-top: 80px;}
+    .gamewithme_main .step_outer.three .step_number{transform: translateX(-70px);}
 }
 
 @media (max-width: 1199px){
@@ -738,8 +739,10 @@ body{
     .gamewithme_main .step_outer.two .character_img {width: 221px;}
     .gamewithme_main .step_outer.two .character_img img{margin-top: 40px;}
     .gamewithme_main .step_outer .step_inner .content p {font-size: 14px;line-height: 26px;}
-    .gamewithme_main .step_outer.two .step_inner .step_number::after {height: 473px;}
-    .gamewithme_main .step_outer.three .step_number{transform: translateX(-33px);}
+    .gamewithme_main .step_outer.two .step_inner .step_number::after {height: 452px;}
+    .gamewithme_main .step_outer.three .step_number{transform: translateX(-65px);}
+    .gamewithme_main .step_outer.three .step_number::before {width: 256px;}
+    .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {width: 308px;}
     .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {width: 746px;}
     .gamewithme_main .step_outer.four .step_number::after {height: 340px;}
     .gamewithme_main .step_outer.fiver .step_inner .step_number::before {width: 221px;}
@@ -764,9 +767,9 @@ body{
     .gamewithme_main .step_outer.two .step_inner .content {width: calc(100% - 310px);}
     .gamewithme_main .step_outer.two .character_img img {margin-top: 120px;}
     .gamewithme_main .step_outer.two .step_inner .step_number::after {height: 544px;}
-    .gamewithme_main .step_outer.three .step_number::before {width: 224px;}
+    .gamewithme_main .step_outer.three .step_number::before {width: 192px;}
     .gamewithme_main .step_outer.three {margin-top: 40px;}
-    .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {width: 235px;}
+    .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {width: 203px;}
     .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {width: 490px;}
     .gamewithme_main .step_outer .step_inner .content {margin-top: 115px;}
     .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {max-width: 150px;}

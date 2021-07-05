@@ -925,7 +925,7 @@ body {
     height: 55px;
   }
   .gamewithme_main .step_outer.three .step_number::before {
-    width: 287px;
+    width: 346px;
   }
   .gamewithme_main .step_outer.two .step_inner .step_number::after {
     height: 541px;
@@ -937,7 +937,7 @@ body {
     height: 30px;
   }
   .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
-    width: 339px;
+    width: 398px;
   }
   .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
     width: 912px;
@@ -990,6 +990,10 @@ body {
   .gamewithme_main .step_outer.seven .boxed_content {
     margin-top: 80px;
   }
+  .gamewithme_main .step_outer.three .step_number {
+    -webkit-transform: translateX(-70px);
+            transform: translateX(-70px);
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1033,11 +1037,17 @@ body {
     line-height: 26px;
   }
   .gamewithme_main .step_outer.two .step_inner .step_number::after {
-    height: 473px;
+    height: 452px;
   }
   .gamewithme_main .step_outer.three .step_number {
-    -webkit-transform: translateX(-33px);
-            transform: translateX(-33px);
+    -webkit-transform: translateX(-65px);
+            transform: translateX(-65px);
+  }
+  .gamewithme_main .step_outer.three .step_number::before {
+    width: 256px;
+  }
+  .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
+    width: 308px;
   }
   .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
     width: 746px;
@@ -1109,13 +1119,13 @@ body {
     height: 544px;
   }
   .gamewithme_main .step_outer.three .step_number::before {
-    width: 224px;
+    width: 192px;
   }
   .gamewithme_main .step_outer.three {
     margin-top: 40px;
   }
   .gamewithme_main .step_outer.three .flex_images .col-lg-3.first::after {
-    width: 235px;
+    width: 203px;
   }
   .gamewithme_main .step_outer.three .flex_images .col-lg-3.last::after {
     width: 490px;
