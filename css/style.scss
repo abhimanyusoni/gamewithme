@@ -830,7 +830,7 @@ body{
     .gamewithme_main .step_outer.four {padding-top: 30px;}
     .gamewithme_main .step_outer.six .boxed_content .box_one, .gamewithme_main .step_outer.seven .boxed_content .box_one{width: 100%; margin-left: 0 !important;}
     .gamewithme_main .step_outer.six .boxed_content .box_one{height: 210px;}
-    .gamewithme_main .step_outer .step_inner .step_number .title {font-size: 22px;}
+    .gamewithme_main .step_outer .step_inner .step_number .title {font-size: 22px; -webkit-text-stroke: 0;}
     .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {max-width: 95px;}
     .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img {left: calc(100% + 85px);}
     .gamewithme_main .step_outer.fiver {padding-top: 40px;}

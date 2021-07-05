@@ -1321,6 +1321,7 @@ body {
   }
   .gamewithme_main .step_outer .step_inner .step_number .title {
     font-size: 22px;
+    -webkit-text-stroke: 0;
   }
   .gamewithme_main .step_outer.fiver .step_inner .step_number .character_img img {
     max-width: 95px;
