@@ -726,7 +726,7 @@ body {
     margin-top: 165px;
   }
   .gamewithme_main .step_outer.one .step_inner .step_number::after {
-    height: 288px;
+    height: 275px;
   }
   .gamewithme_main .step_outer.two .content {
     width: calc(100% - 575px);
