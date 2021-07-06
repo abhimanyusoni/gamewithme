@@ -691,7 +691,7 @@ body {
     max-width: 1340px;
   }
   .gamewithme_main .banner_section {
-    min-height: auto;
+    min-height: 780px;
   }
   .gamewithme_main .banner_section .container {
     max-width: 100%;
@@ -844,6 +844,9 @@ body {
 }
 
 @media (max-width: 1365px) {
+  .gamewithme_main .banner_section {
+    min-height: 720px;
+  }
   .gamewithme_main .banner_section .left_side h1 {
     font-size: 44px;
     margin-bottom: 12px;

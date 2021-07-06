@@ -631,7 +631,7 @@ body{
 
 @media (max-width: 1710px){
     .gamewithme_main .container{max-width: 1340px}
-    .gamewithme_main .banner_section{min-height: auto;}
+    .gamewithme_main .banner_section{min-height: 780px;}
     .gamewithme_main .banner_section .container{max-width: 100%; padding: 0 8%;}
     .gamewithme_main .banner_section .left_side h1 {font-size: 66px; margin-bottom: 20px;}
     .gamewithme_main .banner_section .left_side p {font-size: 22px;line-height: 36px;}
@@ -682,6 +682,7 @@ body{
     .gamewithme_main .banner_section .left_side p {font-size: 20px;line-height: 34px;padding-right: 0;}
 }
 @media (max-width: 1365px){
+    .gamewithme_main .banner_section {min-height: 720px;}
     .gamewithme_main .banner_section .left_side h1 {font-size: 44px;margin-bottom: 12px;}
     .gamewithme_main .banner_section .left_side p {font-size: 16px; line-height: 28px;}
     .gamewithme_main .banner_section::after{left: -30px;}
